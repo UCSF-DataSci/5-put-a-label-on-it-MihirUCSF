@@ -1,0 +1,60 @@
+# Project data directories
+data/
+refs/
+demo/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# C extensions
+*.so
+*.dll
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environments - BE EXTRA EXPLICIT
+venv/
+venv*/
+*/venv/
+env/
+ENV/
+.env
+.venv
+*xgboost*/
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+.ropeproject
+
+# Jupyter Notebook checkpoints 
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Log files and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# OS specific files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temp files
+*.swp
+*~
