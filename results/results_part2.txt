@@ -1,0 +1,19 @@
+MODEL COMPARISON RESULTS
+========================================
+Random Forest AUC: 0.9947
+XGBoost AUC: 1.0000
+
+COMPARISON SUMMARY
+========================================
+Absolute difference in AUC: 0.0053
+Percent improvement: 0.53%
+Best performing model: XGBoost
+
+FEATURE ENGINEERING INSIGHTS
+========================================
+Adding time-series features (rolling mean and standard deviation)
+allowed the models to capture temporal patterns in heart rate data,
+potentially improving their predictive performance compared to
+models using only static features.
+
+Evaluation completed on: 2025-05-05 11:20:20

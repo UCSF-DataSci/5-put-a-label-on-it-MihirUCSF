@@ -1,0 +1,14 @@
+LOGISTIC REGRESSION MODEL EVALUATION
+========================================
+Accuracy:  0.8104
+Precision: 0.3142
+Recall:    0.8099
+F1 Score:  0.4528
+AUC:       0.8853
+
+CONFUSION MATRIX
+========================================
+TN: 1073, FP: 251
+FN: 27, TP: 115
+
+Evaluation completed on: 2025-05-05 11:48:00

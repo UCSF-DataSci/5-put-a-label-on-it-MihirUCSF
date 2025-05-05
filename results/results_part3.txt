@@ -1,0 +1,20 @@
+SMOTE-BALANCED LOGISTIC REGRESSION MODEL EVALUATION
+==================================================
+Accuracy:  0.8540
+Precision: 0.3839
+Recall:    0.8380
+F1 Score:  0.5265
+AUC:       0.9149
+
+CONFUSION MATRIX
+==================================================
+TN: 1133, FP: 191
+FN: 23, TP: 119
+
+NOTES
+==================================================
+This model was trained on data resampled with SMOTE to address class imbalance.
+The model was evaluated on the original imbalanced test set to ensure realistic performance assessment.
+Categorical feature 'smoker_status' was encoded using one-hot encoding with 'drop=first' strategy.
+
+Evaluation completed on: 2025-05-05 11:34:18
